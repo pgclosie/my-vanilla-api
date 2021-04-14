@@ -1,0 +1,14 @@
+{
+  "routes":  [
+{
+    "routes": "/message",
+    "serve":"/index.html",
+    "statusCode":404
+},
+{
+    "routes": "/*",
+    "serve":"/index.html",
+    "statusCode":200
+}
+]
+}
