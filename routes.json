@@ -1,0 +1,15 @@
+{
+  "routes":  [
+{
+    "route": "/message",
+    "serve":"/index.html",
+    "statusCode":404
+},
+{
+    "route": "/*",
+    "serve":"/index.html",
+    "statusCode":200,
+    "allowedRoles": ["administrators"]
+}
+]
+}
